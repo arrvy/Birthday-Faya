@@ -4,13 +4,14 @@
         <link rel="stylesheet" href="style/styles.css">
     </head>
     <body>
-        <button class="button" onclick="const a=document.querySelector('aud.mp3'); a.currentTime=0; a.play()"><img src="/birthday-fireworks/arrow.svg" alt=""></button>
-
-        <audio class="song" loop autoplay>
-            <source src="hbd.mpeg">
+        
+        <audio class="song" loop autoplay controls> 
+            <source src="aud.mp3">
             </source>
             Your browser isn't invited for super fun audio time.
         </audio>
+            <label for="song" class="song-play"><button class="button"><img src="/birthday-fireworks/arrow.svg" alt=""></button>
+</label>
         <h1>Happy Birthday</h1>
         <canvas id="birthday"></canvas>
     </body>
